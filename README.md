@@ -1,5 +1,5 @@
 <h3> A website of a laptop company, that sells customizable laptops </h3>
-![image](https://user-images.githubusercontent.com/77552205/157329536-f846266c-746f-4d94-b41a-eb5d28dfe975.png)
+![image](https://user-images.githubusercontent.com/77552205/157330053-cb4825a8-4c1e-4c68-9f68-1ee64ba41b6d.png)
 ER Diagram Schema:
 ![image](https://user-images.githubusercontent.com/77552205/157329767-d2c5260b-0efc-4be0-adfc-cf4bd37bfd2c.png)
 ![image](https://user-images.githubusercontent.com/77552205/157329815-703b7f7a-32e7-446c-8670-d8f9815a4e6f.png)
