@@ -18,11 +18,11 @@ ER Diagram Schema:
 
 
 
-![Ekran görüntüsü 2022-03-09 004325](https://user-images.githubusercontent.com/77552205/157330590-2c524cbb-422f-4cf3-8124-7875a664ba96.jpg)
+
+![Ekran görüntüsü 2022-03-09 004452](https://user-images.githubusercontent.com/77552205/157330726-42a44cd4-d8d1-4c13-aa8f-299210e37eff.jpg)
 
 
 
 
 
-
-![Ekran görüntüsü 2022-03-09 004325](https://user-images.githubusercontent.com/77552205/157330644-3362cbf4-efba-42ee-9f9a-686fa436459d.jpg)
+![Ekran görüntüsü 2022-03-09 004512](https://user-images.githubusercontent.com/77552205/157330767-8e0b35ab-57ff-4d16-8e2f-fdac950d7fac.jpg)
