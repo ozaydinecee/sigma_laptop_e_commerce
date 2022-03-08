@@ -1,0 +1,112 @@
+<div class="container rounded p-4 text-center">
+    <h2>Add New Item</h2>
+    <form action="addItem.php" method="post">
+        <div class="row justify-content-center">
+            <div class="col-4">
+                <select class="form-select mb-4" aria-label="Default select example" name="itemName">
+                    <option selected>Select the item you want to add</option>
+                    <option value="cpu" name="cpu">CPU</option>
+                    <option value="gpu" name="gpu">GPU</option>
+                    <option value="ram" name="ram">RAM</option>
+                    <option value="storage" name="storage">Storage</option>
+                    <option value="display" name="display">Display</option>
+                    <option value="os" name="os">OS</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="form-floating mb-3 col-4">
+                <input type="text" class="form-control" id="cName" placeholder="Component Name" name="ComponentName">
+                <label for="cName">Component Name</label>
+            </div>
+
+            <div class="form-floating col-4">
+                <input type="text" class="form-control" id="price" placeholder="Price" name="price">
+                <label for="price">Price</label>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="form-floating mb-3 col-4">
+                <input type="text" class="form-control" id="manf" placeholder="Manufacturer ID" name="mid">
+                <label for="manf">ManufacturerID</label>
+            </div>
+
+            <div class="form-floating col-4">
+                <input type="text" class="form-control" id="stock" placeholder="Stock" name="stock">
+                <label for="stock">Stock</label>
+            </div>
+
+            <div class="form-floating col-4">
+                <input type="number" class="form-control" id="attr" placeholder="Attribute" name="attr">
+                <label for="attr">Attribute</label>
+            </div>
+        </div>
+        <button class="btn btn-success" type="submit">Add Item</button>
+    </form>
+
+    <div class="container rounded p-4 text-center">
+        <h2>Add New Laptop</h2>
+        <form action="addLaptop.php" method="post" enctype="multipart/form-data">
+
+            <div class="row justify-content-center">
+
+                <div class="form-floating col-4 mb-3">
+                    <input type="text" class="form-control" id="did" placeholder="name" name="name">
+                    <label for="did">Name</label>
+                </div>
+
+            </div>
+            <div class="row justify-content-center">
+
+
+                <div class="form-floating col-4">
+                    <input type="number" class="form-control" id="cid" placeholder="cpuID" name="cpuID">
+                    <label for="cid">cpuID</label>
+                </div>
+                <div class="form-floating mb-3 col-4">
+                    <input type="number" class="form-control" id="gid" placeholder="gpuID" name="gpuID">
+                    <label for="gid">gpuID</label>
+                </div>
+                <div class="form-floating col-4">
+                    <input type="number" class="form-control" id="oid" placeholder="osID" name="osID">
+                    <label for="oid">osID</label>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="form-floating mb-3 col-4">
+                    <input type="number" class="form-control" id="rid" placeholder="ramID" name="ramID">
+                    <label for="rid">ramID</label>
+                </div>
+
+                <div class="form-floating col-4">
+                    <input type="number" class="form-control" id="sid" placeholder="StorageID" name="storageID">
+                    <label for="sid">StorageID</label>
+                </div>
+
+                <div class="form-floating col-4">
+                    <input type="number" class="form-control" id="did" placeholder="DisplayID" name="displayID">
+                    <label for="did">DisplayID</label>
+                </div>
+
+                <h2>
+                    Choose laptop images
+                </h2>
+                <input type="file" class="form-control" name="fileToUpload1" id="fileToUpload">
+                <input type="file" class="form-control my-3" name="fileToUpload2" id="fileToUpload">
+                <input type="file" class="form-control" name="fileToUpload3" id="fileToUpload">
+
+
+                <!-- <div class="input-group my-3">
+                    <input type="file" class="form-control" id="img2">
+                </div>
+                <div class="input-group">
+                    <input type="file" class="form-control" id="img3">
+                </div> -->
+
+
+            </div>
+            
+        </form>
+    </div>
+</div>
